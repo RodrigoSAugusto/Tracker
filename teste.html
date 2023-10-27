@@ -1,0 +1,12 @@
+/* Função Validar*/
+function validar() {
+    // pegando o numero do pedido
+    var numero = pedido.numero;
+
+    //verificar se o numero esta no formato certo.
+    if (numero.length != 6) {
+        alert("O pedido precisa ter 6 digitos!");
+        numero.focus();
+    }
+
+}
